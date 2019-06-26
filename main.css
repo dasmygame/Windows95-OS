@@ -1,0 +1,180 @@
+body {
+	background-color: #008080;
+	font-family: sans-serif;
+	text-align: center;
+	margin: 0;
+
+	height: 100%;
+
+}
+
+img {
+	width: 100%;
+	height: auto;
+	
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 300%;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	position: relative;
+	left: 20px;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 150%;
+	margin: 0;
+	padding: 0;
+	text-indent: -120px;
+}
+
+h3 {
+	display: inline-block;
+	font-weight: normal;
+	font-size: 400%;
+}
+
+h4	{
+
+	background-color: #999;
+	border-style: solid;
+	border-color: white black black white;
+	border-width: 1px;
+	border-repeat: no-repeat;
+	font-family: courier;
+	text-indent: -10px;
+	
+}
+
+h4:hover {
+	background-color: blue;
+	color: white;
+}
+	
+
+.footer {
+	background-color: #999;
+	border-style: solid;
+	border-color: white black black black;
+	border-width: 2px;
+	border-repeat: no-repeat;
+	font-family: courier;
+	position: fixed;
+	bottom: 0;
+	right: 0%;
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	clear: both;
+	
+}
+
+.footer a {
+	color: black;
+	font-weight: bold;
+	padding: 1px;
+
+}
+
+
+
+.footer ul li {
+	background-color: #888;
+	padding: 8px;
+	position: relative;
+	bottom: 28px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: white black black white;	
+}
+
+.logo  {
+	background-image: url("img/logo.png");
+	background-size: 36px;
+	background-repeat: no-repeat;
+	text-indent: 30px;
+	position: relative;
+	float: left;
+	
+}
+
+.time {
+	position: absolute;
+	float: right;
+	right: 10px;
+	display: inline-block;
+}
+
+.paint {
+
+	background-image: url("img/paint.png");
+	background-size: 20px;
+	background-repeat: no-repeat;
+	text-indent: 30px;
+	position: relative;
+	float: left;
+	
+}
+a {
+	text-decoration: none;
+}
+
+a:hover{
+	color: blue;
+}
+
+a:active {
+	
+	font-size: 80%;
+}
+
+
+.icon1	{
+	text-align: center;
+	color: white;
+	position: relative; 
+	left: 15px;
+	width: 65px; 
+	height: 65px;
+	top: -200px;
+	
+}
+
+.icon2 {
+	text-align: center;
+	color: white;
+	position: relative; 
+	left: 15px;
+	width: 65px; 
+	height: 65px;
+	top: -140px;
+}
+
+.icon3 {
+	text-align: center;
+	color: white;
+	position: relative; 
+	left: 15px;
+	width: 65px; 
+	height: 65px;
+	top: -80px;
+}
+
+
+
+h5	{
+	position: relative;
+	top: -20px;
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	
+}
+
+
+
+

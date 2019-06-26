@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+
+<link href="main.css" rel="stylesheet" type = "text/css" />
+<STYLE>A {text-decoration: none;} </STYLE>
+
+<title>
+Rahul Das - Portfolio
+</title>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Draggable - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+  #draggable {  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
+
+</head>
+
+<body>
+
+
+<img src = "img/logo.png" style = "width:300px; height:200px; position: relative; top: 200px;">
+
+<script src="src.js"></script>
+
+<div id="draggable">
+	<div class="icon1">
+		 
+			<a href = "resume.html">
+			<img src = "img/resume.png">
+			<h5>Resume</h5>
+		
+	</div>
+</div>
+
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Draggable - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+  #drag {  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#drag" ).draggable();
+  } );
+  </script>
+
+</head>	
+	
+<div id="drag">
+	<div class="icon2">
+	<a href = "projects.html">
+	<img src = "img/projects.png"> 
+	<h5>Projects</h5>
+	</div>
+</div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Draggable - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+  #dragging {  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#dragging" ).draggable();
+  } );
+  </script>
+
+</head>
+	
+<div id="dragging">	
+	<div class="icon3">
+	<a href = "contact.html">
+	<img src = "img/contactme.png"> 
+	<h5>Contact Me</h5>
+	</div>
+</div>
+
+
+
+
+<h2 style = "position:relative; top: -10px;"> Rahul </h2>
+<h1 style = "position:relative; top: -10px;"> Das </h1> 
+<h1 style = "position:relative; top: -30px; font-size:100%;">&#8482 </h1>
+<h1 style = "font-weight:normal; position:relative; top: -10px;"> 19 </h1>
+</body>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Popup container - can be anything you want */
+.popup {
+
+  display: inline-block;
+  position: relative;
+  float: left;
+  right: 30px;
+
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #999;
+  color: black;
+  text-align: left;
+  border-style: solid;
+  border-color: white black black white;
+  border-width: 2px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 200%;
+  left: -73%;
+  margin-left: 80px;
+}
+
+
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+</style>
+
+<div class="footer">
+	<ul>
+		<div class="popup" onclick="myFunction()">
+			<li class = "logo"><a href = "">Start</li>
+			<span class="popuptext" id="myPopup">
+			<h4><img src = "img/paint.png" style = "width:30px; height:30px; position:relative; left:10px;">
+			MS Paint</h4>
+			</span>
+		</div>
+
+		<script>
+		// When the user clicks on div, open the popup
+		function myFunction() {
+  		var popup = document.getElementById("myPopup");
+  		popup.classList.toggle("show");
+		}
+		</script>
+			<li class = "time"><a href = "timetohire.html">Click to set up clock</a></li>
+		
+	</ul>
+</div>
+
+</html>
